@@ -4,5 +4,6 @@
 import "./2-1-setting.js";
 import "./2-2-union.js";
 import "./2-3-type-alias-vs-interface.js";
+import "./2-5-different-types-hierarchically.js"
 
 
