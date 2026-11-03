@@ -1,7 +1,7 @@
 // ::: typeof :::
 let x = ["123"];
 // console.log(typeof x)
-console.log(typeof x === "object");
+// console.log(typeof x === "object")
 // ::: Type Guard :::
 const print = (value) => {
     if (typeof value === "string") {
