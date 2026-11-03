@@ -7,6 +7,7 @@
 // import "./2-5-different-types-hierarchically.js";
 // import "./2-6-type-assertion.js";
 // import "./2-7-narrowing-down.js";
-import "./2-8-narrowing-continued.js";
+// import "./2-8-narrowing-continued.js";
+import "./2-9-generic.js";
 
 
