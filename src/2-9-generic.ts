@@ -23,14 +23,14 @@ interface IBlog {
   date: string;
 }
 
-interface ApiResponse<T> {
+interface IApiResponse<T> {
   data: T;
   success: boolean;
   statusCode: number;
 }
 
-type TUserResponse = ApiResponse<IUser>;
-type TBlogResponse = ApiResponse<IBlog>;
+type TUserResponse = IApiResponse<IUser>;
+type TBlogResponse = IApiResponse<IBlog>;
 
 const userRes: TUserResponse = {
   data: {
