@@ -6,7 +6,7 @@ const showStatus = (status: TStatus) => {
   console.log("Your current application status is " + status);
 };
 
-showStatus(someStatus as TStatus);
+// showStatus(someStatus as TStatus);
 
 // non-null assertion
 interface IConfig {

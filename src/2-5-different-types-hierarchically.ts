@@ -2,7 +2,7 @@
 // ::: top types: any, unknown :::
 let x : any = "Hello world";
 x = 123;
-console.log(x.length)
+// console.log(x.length)
 
 // when we apply method on variable of unknown type, it give error
 let something: unknown = "Hello world";
@@ -40,7 +40,7 @@ const currentUser: TLoggedInUser = null;
 const greet = (): void => {
   console.log("Hello world")
 }
-greet();
+// greet();
 
 something2 = greet;
 
@@ -54,8 +54,8 @@ const anotherGreet = (): undefined => {
 }
 
 // const greetings = anotherGreet();
-const greetings: void = anotherGreet();
-console.log(greetings)
+// const greetings: void = anotherGreet();
+// console.log(greetings)
 
 
 // ::: Bottom type: never :::
@@ -66,4 +66,4 @@ const getError = (msg: string): never => {
   throw new Error(msg);
 }
 
-let y : null = getError("eeeeeeeeeeeeee");
+// let y : null = getError("eeeeeeeeeeeeee");
