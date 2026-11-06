@@ -8,4 +8,5 @@
 // import "./2-7-narrowing-down.js";
 // import "./2-8-narrowing-continued.js";
 // import "./2-9-generic.js";
-import "./2-10-applying-generic-type-to-handle-promise.js";
+// import "./2-10-applying-generic-type-to-handle-promise.js"
+import "./practices.js";
